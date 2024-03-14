@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyBlog.EntityLayer.Concrete
 {
-    public class Writter
+    public class Writer
     {
-        public int WriterId { get; set; }
+        public int WriterID { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Title { get; set; }
