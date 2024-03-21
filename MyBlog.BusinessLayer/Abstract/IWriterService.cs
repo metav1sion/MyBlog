@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using MyBlog.EntityLayer.Concrete;
 
-namespace MyBlog.DataAccessLayer.Abstract
+namespace MyBlog.BusinessLayer.Abstract
 {
-    public interface IWriterDal : IGenericDal<Writer>
+    public interface IWriterService : IGenericService<Writer>
     {
-        int GetWriterCount();
+
     }
 }
